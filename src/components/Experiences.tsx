@@ -14,7 +14,7 @@ const experiences = [
         role: "DevOps Intern",
         date: "2025.07 - 2025.12",
         desc: "Involved in KIA Slovakia deployments, developed ThingWorx modules, improved CI/CD pipelines.",
-        images: ["/experiences/hmgics/hmgics1.JPG", "/experiences/hmgics/hmgics2.JPG", "/experiences/hmgics/hmgics3.jpg"],
+        images: ["experiences/hmgics/hmgics1.JPG", "experiences/hmgics/hmgics2.JPG", "experiences/hmgics/hmgics3.jpg"],
     },
 ];
 

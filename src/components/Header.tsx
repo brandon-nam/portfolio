@@ -19,16 +19,16 @@ export default function Header() {
                 <span className="items-center flex">|</span>
                 <Button asChild size="sm" className="w-15" variant={"ghost"}>
                     <a href="https://github.com/brandon-nam" target="_blank">
-                        <img src="/GitHub.png" alt="GitHub" className="w-4 h-4" />
+                        <img src="GitHub.png" alt="GitHub" className="w-4 h-4" />
                     </a>
                 </Button>
                 <Button asChild size="sm" className="w-15" variant={"ghost"}>
                     <a href="https://linkedin.com/in/nam-dohyun" target="_blank">
-                        <img src="/linkedin.png" alt="LinkedIn" className="w-4 h-4" />
+                        <img src="linkedin.png" alt="LinkedIn" className="w-4 h-4" />
                     </a>
                 </Button>
                 <Button asChild size="sm" className="w-15" variant={"ghost"}>
-                    <a href="/namdohyun-resume.pdf" target="_blank">
+                    <a href="namdohyun-resume.pdf" target="_blank">
                         Resume
                     </a>
                 </Button>

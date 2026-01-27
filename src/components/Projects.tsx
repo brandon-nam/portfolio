@@ -7,34 +7,30 @@ const projects = [
     {
         title: "LecBuddy - Panopto Lecture Summarizer",
         desc: "Chrome extension to summarize lecture videos using OpenAI's Whisper. Presented at Hack & Roll 2026. I use it on a daily basis. ",
-        images: ["/projects/lecbuddy/lecbuddy1.jpeg", "/projects/lecbuddy/lecbuddy2.jpeg", "/projects/lecbuddy/lecbuddy3.jpeg"],
+        images: ["projects/lecbuddy/lecbuddy1.jpeg", "projects/lecbuddy/lecbuddy2.jpeg", "projects/lecbuddy/lecbuddy3.jpeg"],
         repoLink: "https://github.com/brandon-nam/lec-buddy",
     },
     {
         title: "GrantSync - Orchestrating Funding Sustainability",
         desc: "AI-powered Platform to help non-profits find and manage grants. Presented at Hack4Good 2026.",
-        images: [
-            "/projects/grantsync/grantsync1.png",
-            "/projects/grantsync/grantsync2.png",
-            "/projects/grantsync/grantsync3.png",
-        ],
+        images: ["projects/grantsync/grantsync1.png", "projects/grantsync/grantsync2.png", "projects/grantsync/grantsync3.png"],
         repoLink: "https://github.com/brandon-nam/grantsync",
     },
     {
         title: "TravelWise - Travel site recommendation platform",
         desc: "AI-powered travel site recommendation platform that executes ETL pipelines to gather and analyze user reviews from Reddit. Presented at STePs 2025.",
-        images: ["/projects/travelwise/travelwise.png"],
+        images: ["projects/travelwise/travelwise.png"],
         repoLink: "https://github.com/brandon-nam/travelwise",
     },
     {
         title: "Omniversity - Global Exchange Students Platform",
         desc: "An app that connects exchange students with recommendation systems.",
         images: [
-            "/projects/omniversity/omniversity1.png",
-            "/projects/omniversity/omniversity2.png",
-            "/projects/omniversity/omniversity3.png",
-            "/projects/omniversity/omniversity4.png",
-            "/projects/omniversity/omniversity5.png",
+            "projects/omniversity/omniversity1.png",
+            "projects/omniversity/omniversity2.png",
+            "projects/omniversity/omniversity3.png",
+            "projects/omniversity/omniversity4.png",
+            "projects/omniversity/omniversity5.png",
         ],
         repoLink: "https://github.com/exchange-reddit",
     },
@@ -54,7 +50,7 @@ export default function Projects() {
                                 <div>
                                     <Button asChild size="sm" className="w-15" variant={"ghost"}>
                                         <a href={p.repoLink} target="_blank">
-                                            <img src="/GitHub.png" alt="GitHub" className="w-4 h-4" />
+                                            <img src="GitHub.png" alt="GitHub" className="w-4 h-4" />
                                         </a>
                                     </Button>
                                 </div>

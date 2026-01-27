@@ -7,13 +7,13 @@ export default function Hero() {
         <section className="grid md:grid-cols-2 gap-8 items-center">
             <div className="group relative w-full overflow-hidden rounded-lg">
                 <img
-                    src="/brandon/brandon.JPG"
+                    src="brandon/brandon.JPG"
                     className="relative w-full aspect-[16:9] object-cover transition-all duration-500 group-hover:scale-105 group-hover:blur-sm group-hover:brightness-50"
                     alt="Full Background"
                 />
 
                 <img
-                    src="/brandon/brandon-rmvbg.png"
+                    src="brandon/brandon-rmvbg.png"
                     className="absolute inset-0 w-full h-full object-cover transition-all duration-500 opacity-0 group-hover:opacity-100 group-hover:scale-105"
                     alt="Cutout"
                 />
