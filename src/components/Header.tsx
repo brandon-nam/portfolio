@@ -11,7 +11,7 @@ export default function Header() {
         <a href="#projects" className="hover:text-primary transition items-center flex">Projects</a>
         <a href="#contact" className="hover:text-primary transition items-center flex">Contact</a>
         <Button asChild size="sm">
-          <a href="/resume.pdf" className="ml-2">Resume</a>
+          <a className="ml-2" href="/namdohyun-resume.pdf" target="_blank">Resume</a>
         </Button>
       </nav>
     </header>

@@ -8,7 +8,7 @@ import Contact from '../components/Contact'
 export default function Home() {
   return (
     <div className="max-w-5xl mx-auto px-6 py-12">
-      <Header />
+      <Header/>
       <main className="mt-12 space-y-12">
         <Hero />
         <Skills />

@@ -23,7 +23,7 @@ export default function Hero() {
           <span className="inline-block text-4xl font-bold transition-transform duration-500 group-hover:rotate-[360deg]">Hi, </span>
           <span className="text-4xl font-bold">I’m Dohyun!</span>
         </span>
-        <p className="mt-4 text-slate-600">I build reliable, automated systems and tools to help teams ship quickly and operate safely. I'm looking for roles in software engineering, DevOps, SRE, and cloud infrastructure.</p>
+        <p className="mt-4 text-slate-600">I build reliable, automated systems and tools to help teams ship quickly and operate safely. I'm looking for roles in software engineering, DevOps, SRE, Test Automation, and cloud.</p>
         <div className="mt-6 flex gap-4">
           <Button asChild>
             <a href="#projects">See Projects</a>
