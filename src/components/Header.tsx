@@ -28,7 +28,7 @@ export default function Header() {
                     </a>
                 </Button>
                 <Button asChild size="sm" className="w-15" variant={"ghost"}>
-                    <a href="namdohyun-resume.pdf" target="_blank">
+                    <a href={`${import.meta.env.BASE_URL}namdohyun-resume.pdf`} target="_blank">
                         Resume
                     </a>
                 </Button>
