@@ -57,8 +57,8 @@ export default function Projects() {
                 <CardTitle>{p.title}</CardTitle>
                 <div>
                   <Button asChild size="sm" className="w-15" variant={"ghost"}>
-                    <a href={p.repoLink} target="_blank">
-                      <img src={`${import.meta.env.BASE_URL}GitHub.png`} alt="GitHub" className="w-4 h-4" />
+                    <a href={p.repoLink} target="_blank" className="flex shrink-0">
+                      <img src={`${import.meta.env.BASE_URL}GitHub.png`} alt="GitHub" className="w-4 h-4 shrink-0" />
                     </a>
                   </Button>
                 </div>

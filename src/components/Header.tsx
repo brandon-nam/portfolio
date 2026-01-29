@@ -1,11 +1,12 @@
 import React from "react";
 
 import { Button } from "@/components/ui/button";
+import { DecryptText } from "./ui/decryptText";
 
 export default function Header() {
     return (
-        <header className="flex items-center justify-between py-4">
-            <div className="text-xl font-semibold text-slate-900">Nam Dohyun</div>
+        <header className="flex items-center justify-between py-4 border-b-4">
+            <DecryptText targetText="Nam Dohyun" textClassName="text-medium text-bold" />
             <nav className="hidden md:flex gap-3 text-sm text-muted">
                 <a href="#experiences" className="hover:text-primary transition items-center flex">
                     Experiences
